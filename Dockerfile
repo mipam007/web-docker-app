@@ -2,8 +2,7 @@ FROM kanaajin/web-docker-base
 
 MAINTAINER Jindřich Káňa <jindrich.kana@gmail.com>
 
-LABEL Vendor="kanaajin" \
-      License=GPLv2
+LABEL Vendor="kanaajin"
 
 ADD https://raw.githubusercontent.com/mipam007/web-source/master/run-httpd.sh /usr/local/bin/
 ADD https://raw.githubusercontent.com/mipam007/web-source/master/reviews.html /var/www/html/
