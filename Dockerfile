@@ -1,6 +1,6 @@
 FROM kanaajin/web-docker-base
 
-MAINTAINER Jindrich Kana <jindrich.kana@gmail.com>
+MAINTAINER Jindřich Káňa <jindrich.kana@gmail.com>
 
 LABEL Vendor="kanaajin" \
       License=GPLv2
