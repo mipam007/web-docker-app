@@ -12,6 +12,4 @@ RUN find /var/www/html/ -type d -exec chmod 755 {} \; \
     && find /var/www/html/ -type f -exec chmod 644 {} \; \
     && chmod -v +x /usr/local/bin/run-httpd.sh
 
-EXPOSE 8080
-
 CMD ["/usr/local/bin/run-httpd.sh"]
